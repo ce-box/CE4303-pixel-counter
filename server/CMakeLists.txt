@@ -10,7 +10,6 @@ add_executable(
     src/config/config.c
     src/logging/logging.c
     src/utils/convert2int.c
-    src/utils/base64.c
 )
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})

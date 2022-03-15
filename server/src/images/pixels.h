@@ -1,7 +1,6 @@
 #ifndef PIXELS_H_
 #define PIXELS_H_
 
-//#include <MagicWand/MagickWand.h>
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdint.h>
@@ -10,10 +9,20 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
+#define SIZE 100
+
 char *gallery_path;
 
+struct RGB
+{
+    int r, g, b;
+    int last;
+};
+
 void set_gallery_path(char *path);
+void store_base64(const char *data);
+void decode_base64(const char *filename);
+void decode(FILE *encoded, FILE *decoded);
 int count_pixels(const char *filename, int reference_value);
-void save_image(const char *filename, const char *data);
 
 #endif

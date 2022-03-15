@@ -12,15 +12,15 @@
 int count_image_pixels(const struct _u_request *req, struct _u_response *res, void *user_data)
 {
     const char *filename = u_map_get(req->map_post_body, "filename");
-    const char *data_b64 = u_map_get(req->map_post_body, "file");
+    const char *data = u_map_get(req->map_post_body, "file");
     const char *pixel_value = u_map_get(req->map_post_body, "npixel");
 
-    const char *data = decode(data_b64, sizeof(data_b64));
     int pxl = convert2int(pixel_value);
 
     printf("{ filename: %s, npixel: %i}\n", filename, pxl);
 
-    save_image(filename, data);
+    store_base64(data);
+    decode_base64(filename);
     int result = count_pixels(filename, pxl);
 
     char *res_body = malloc(sizeof(char) * 512);
