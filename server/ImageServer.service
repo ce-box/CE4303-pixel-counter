@@ -1,0 +1,15 @@
+[Unit]
+Description=ImageServer service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Restart=always
+RestartSec=1
+ExecStart=/home/estalvgs/Documentos/tec/sistemas-operativos/CE4303-pixel-counter/server/build/ImageServer
+TimeoutStopSec=5
+NonBlocking=yes
+
+[Install]
+WantedBy=multi-user.target
