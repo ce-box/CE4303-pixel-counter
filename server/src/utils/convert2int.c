@@ -1,5 +1,11 @@
 #include "convert2int.h"
 
+/**
+ * @brief
+ *
+ * @param num
+ * @return int
+ */
 int convert2int(const char *num)
 {
     char *result = malloc(sizeof(char) * 512);

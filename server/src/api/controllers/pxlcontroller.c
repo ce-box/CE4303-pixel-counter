@@ -17,11 +17,14 @@ int count_image_pixels(const struct _u_request *req, struct _u_response *res, vo
 
     int pxl = convert2int(pixel_value);
 
-    printf("{ filename: %s, npixel: %i}\n", filename, pxl);
-
+    // convert base64 to image and store it
     store_base64(data);
     decode_base64(filename);
+
+    // count pixels
     int result = count_pixels(filename, pxl);
+
+    printf("{ filename: %s, reference: %i, pixels: %i}\n", filename, pxl, result);
 
     char *res_body = malloc(sizeof(char) * 512);
     sprintf(res_body, "{ img: %s, reference: %i, pixels: %i }\n", filename, pxl, result);

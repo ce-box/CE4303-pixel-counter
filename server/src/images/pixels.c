@@ -1,45 +1,53 @@
 #include "pixels.h"
 #include <b64/cdecode.h>
 
+/**
+ * @brief Set the gallery path object
+ *
+ * @param path
+ */
 void set_gallery_path(char *path)
 {
     gallery_path = path;
 }
 
+/**
+ * @brief
+ *
+ * @param filename
+ * @param reference_value
+ * @return int
+ */
 int count_pixels(const char *filename, int reference_value)
 {
-    int result, size;
+    // Execute subroutine for image analysis
+    char *root = "/home/estalvgs/Documentos/tec/sistemas-operativos/CE4303-pixel-counter/server";
+    char *command = malloc(sizeof(char) * 1024);
+    sprintf(command, "python3 %s/src/images/pixel_counter.py %s %i", root, filename, reference_value);
+    system(command);
 
-    char *img_path = malloc(sizeof(char) * 512);
-    sprintf(img_path, "%s/%s", gallery_path, filename);
+    free(command);
 
-    FILE *input_file = fopen(img_path, "rb");
-    fseek(input_file, 0, SEEK_END);
-    size = ftell(input_file);
-    rewind(input_file);
+    // Read result value
+    char *path = malloc(sizeof(char) * 512);
+    sprintf(path, "%s/tmp/result.txt", gallery_path);
 
-    char *data = malloc(size * sizeof(char));
-    fread(data, sizeof(char), size, input_file);
+    FILE *fptr;
+    fptr = fopen(path, "r");
 
-    fclose(input_file);
+    char *buffer = malloc(sizeof(char) * 16);
+    fread(buffer, sizeof(char), 16, fptr);
+    fclose(fptr);
+    free(path);
 
-    for (int i = 0; i < size; i += 3)
-    {
-        int avg_pxl = 0;
-
-        for (int j = 0; j < 3; j++)
-        {
-            const char *pxl = &data[i + j];
-            avg_pxl += atoi(pxl);
-        }
-
-        if (avg_pxl > reference_value)
-            result++;
-    }
-
-    return result;
+    return atoi(buffer);
 }
 
+/**
+ * @brief
+ *
+ * @param data
+ */
 void store_base64(const char *data)
 {
     FILE *encoded_file;
@@ -50,6 +58,11 @@ void store_base64(const char *data)
     fclose(encoded_file);
 }
 
+/**
+ * @brief
+ *
+ * @param filename
+ */
 void decode_base64(const char *filename)
 {
     FILE *encoded_file, *img;
@@ -77,6 +90,12 @@ void decode_base64(const char *filename)
     free(img_path);
 }
 
+/**
+ * @brief
+ *
+ * @param inputFile
+ * @param outputFile
+ */
 void decode(FILE *inputFile, FILE *outputFile)
 {
     /* set up a destination buffer large enough to hold the decoded data */

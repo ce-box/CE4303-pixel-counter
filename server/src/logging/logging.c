@@ -1,10 +1,20 @@
 #include "logging.h"
 
+/**
+ * @brief Set the logging path object
+ *
+ * @param log_path
+ */
 void set_logging_path(char *log_path)
 {
     log_file = log_path;
 }
 
+/**
+ * @brief
+ *
+ * @param msg
+ */
 void logging(char *msg)
 {
     FILE *fptr = NULL;
@@ -20,6 +30,11 @@ void logging(char *msg)
     fclose(fptr);
 }
 
+/**
+ * @brief
+ *
+ * @return char*
+ */
 char *time_stamp()
 {
     time_t raw_time;

@@ -1,5 +1,10 @@
 #include "config.h"
 
+/**
+ * @brief Get the configuration object
+ *
+ * @return Config*
+ */
 Config *get_configuration()
 {
 
