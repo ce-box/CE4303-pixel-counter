@@ -7,7 +7,9 @@
  */
 void set_logging_path(char *log_path)
 {
-    log_file = log_path;
+    char *root = getenv("CROOT");
+    log_file = malloc(sizeof(char) * 512);
+    sprintf(log_file, "%s%s", root, log_path);
 }
 
 /**
@@ -28,6 +30,7 @@ void logging(char *msg)
     char *log_time = time_stamp();
     fprintf(fptr, "%s - %s\n", log_time, msg);
     fclose(fptr);
+    free(log_time);
 }
 
 /**

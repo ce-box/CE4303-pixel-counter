@@ -3,6 +3,8 @@
 #include "./api/server.h"
 #include "./images/pixels.h"
 
+#define ROOT "/home/estalvgs/Documentos/tec/sistemas-operativos/CE4303-pixel-counter"
+
 int main(int argc, char const *argv[])
 {
 

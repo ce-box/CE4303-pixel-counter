@@ -7,9 +7,10 @@ Type=simple
 User=root
 Restart=always
 RestartSec=1
-ExecStart=/home/estalvgs/Documentos/tec/sistemas-operativos/CE4303-pixel-counter/server/build/ImageServer
+ExecStart=/home/ubuntu/CE4303-pixel-counter/server/build/ImageServer
 TimeoutStopSec=5
 NonBlocking=yes
+Environment="CROOT=/home/ubuntu/CE4303-pixel-counter/server"
 
 [Install]
 WantedBy=multi-user.target

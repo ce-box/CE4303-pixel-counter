@@ -8,7 +8,9 @@
  */
 void set_gallery_path(char *path)
 {
-    gallery_path = path;
+    char *root = getenv("CROOT");
+    gallery_path = malloc(sizeof(char) * 512);
+    sprintf(gallery_path, "%s%s", root, path);
 }
 
 /**
@@ -23,6 +25,8 @@ int pixels_count(const char *filename, int reference_value)
     int w, h, ch, result = 0;
     unsigned char *data = stbi_load(filename, &w, &h, &ch, 0);
     int size = w * h;
+
+    logging("Counting pixels");
 
     for (int i = 0; i < size; i += ch)
     {

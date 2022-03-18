@@ -7,8 +7,11 @@
  */
 Config *get_configuration()
 {
+    char *root = getenv("CROOT");
+    char *config_file = malloc(sizeof(char) * 1024);
+    sprintf(config_file, "%s/server.config", root);
 
-    FILE *fptr = fopen("/home/estalvgs/Documentos/tec/sistemas-operativos/CE4303-pixel-counter/server/server.config", "r");
+    FILE *fptr = fopen(config_file, "r");
     int line_size = 128;
     char *line = malloc(sizeof(char) * line_size);
 

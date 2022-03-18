@@ -17,6 +17,8 @@ int count_image_pixels(const struct _u_request *req, struct _u_response *res, vo
 
     int pxl = convert2int(pixel_value);
 
+    logging("[controller] image received");
+
     // convert base64 to image and store it
     store_base64(data);
     decode_base64(filename);
