@@ -114,3 +114,12 @@
 2022-17-Mar 20:13 - Counting pixels
 2022-17-Mar 20:13 - [controller] image received
 2022-17-Mar 20:13 - Counting pixels
+2022-17-Mar 20:16 - Server running on port: 8000
+2022-17-Mar 20:16 - [controller] image received
+2022-17-Mar 20:16 - Counting pixels
+2022-17-Mar 20:25 - Server running on port: 8000
+2022-17-Mar 20:26 - Server running on port: 8000
+2022-17-Mar 20:26 - [controller] image received
+2022-17-Mar 20:26 - Counting pixels
+2022-17-Mar 20:26 - [controller] image received
+2022-17-Mar 20:26 - Counting pixels
