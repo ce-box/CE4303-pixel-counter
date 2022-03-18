@@ -22,7 +22,7 @@ int count_image_pixels(const struct _u_request *req, struct _u_response *res, vo
     decode_base64(filename);
 
     // count pixels
-    int result = count_pixels(filename, pxl);
+    int result = pixels_count(filename, pxl); // count_pixels(filename, pxl);
 
     printf("{ filename: %s, reference: %i, pixels: %i}\n", filename, pxl, result);
 

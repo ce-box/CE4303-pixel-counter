@@ -9,6 +9,9 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
+#define STB_IMAGE_IMPLEMENTATION
+#include "stb_image/stb_image.h"
+
 #define SIZE 100
 
 char *gallery_path;
@@ -24,5 +27,6 @@ void store_base64(const char *data);
 void decode_base64(const char *filename);
 void decode(FILE *encoded, FILE *decoded);
 int count_pixels(const char *filename, int reference_value);
+int pixels_count(const char *filename, int reference_value);
 
 #endif

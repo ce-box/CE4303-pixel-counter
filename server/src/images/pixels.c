@@ -46,6 +46,31 @@ int count_pixels(const char *filename, int reference_value)
 /**
  * @brief
  *
+ * @param filename
+ * @param reference_value
+ * @return int
+ */
+int pixels_count(const char *filename, int reference_value)
+{
+    int w, h, ch, result = 0;
+    unsigned char *data = stbi_load(filename, &w, &h, &ch, 0);
+    int size = w * h;
+
+    for (int i = 0; i < size; i += ch)
+    {
+        int pixels = 0;
+        for (int c = 0; c < ch; c++)
+            pixels += atoi(data[i + c]);
+        if (pixels > result)
+            result++;
+    }
+    stbi_image_free(data);
+    return result;
+}
+
+/**
+ * @brief
+ *
  * @param data
  */
 void store_base64(const char *data)
