@@ -8,7 +8,9 @@
  */
 void set_gallery_path(char *path)
 {
-    gallery_path = path;
+    char *root = getenv("CROOT");
+    gallery_path = malloc(sizeof(char) * 512);
+    sprintf(gallery_path, "%s%s", root, path);
 }
 
 /**
@@ -20,8 +22,10 @@ void set_gallery_path(char *path)
  */
 int count_pixels(const char *filename, int reference_value)
 {
+    logging("Counting pixels");
+
     // Execute subroutine for image analysis
-    char *root = "/home/estalvgs/Documentos/tec/sistemas-operativos/CE4303-pixel-counter/server";
+    char *root = getenv("CROOT");
     char *command = malloc(sizeof(char) * 1024);
     sprintf(command, "python3 %s/src/images/pixel_counter.py %s %i", root, filename, reference_value);
     system(command);

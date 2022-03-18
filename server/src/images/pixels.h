@@ -8,6 +8,7 @@
 #include <memory.h>
 #include <sys/stat.h>
 #include <unistd.h>
+#include "../logging/logging.h"
 
 #define SIZE 100
 

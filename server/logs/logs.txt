@@ -84,3 +84,33 @@
 2022-15-Mar 12:28 - Server running on port: 8000
 2022-15-Mar 12:29 - Server running on port: 8000
 2022-15-Mar 12:33 - Server running on port: 8000
+2022-17-Mar 19:06 - Server running on port: 8000
+2022-17-Mar 19:09 - Server running on port: 8000
+2022-17-Mar 20:00 - Server running on port: 8000
+2022-17-Mar 20:00 - Server running on port: 8000
+2022-17-Mar 20:01 - Server running on port: 8000
+2022-17-Mar 20:01 - Server running on port: 8000
+2022-17-Mar 20:04 - [controller] image received r2d3.jpg, pxl: 1000
+2022-17-Mar 20:04 - Counting pixels of img: r2d3.jpg
+2022-17-Mar 20:05 - Server running on port: 8000
+2022-17-Mar 20:05 - [controller] image received wallpaper.jpg, pxl: 233
+2022-17-Mar 20:05 - Counting pixels of img: wallpaper.jpg
+2022-17-Mar 20:08 - Server running on port: 8000
+2022-17-Mar 20:08 - Server running on port: 8000
+2022-17-Mar 20:08 - [controller] image received wallpaper.jpg, pxl: 233
+2022-17-Mar 20:08 - Counting pixels of img: wallpaper.jpg
+2022-17-Mar 20:09 - Server running on port: 8000
+2022-17-Mar 20:09 - [controller] image received wallpaper.jpg, pxl: 233
+2022-17-Mar 20:09 - Counting pixels of img: wallpaper.jpg
+2022-17-Mar 20:09 - Server running on port: 8000
+2022-17-Mar 20:10 - [controller] image received wallpaper.jpg, pxl: 233
+2022-17-Mar 20:10 - Counting pixels
+2022-17-Mar 20:11 - Server running on port: 8000
+2022-17-Mar 20:11 - [controller] image received wallpaper.jpg, pxl: 233
+2022-17-Mar 20:11 - Counting pixels
+2022-17-Mar 20:13 - Server running on port: 8000
+2022-17-Mar 20:13 - Server running on port: 8000
+2022-17-Mar 20:13 - [controller] image received
+2022-17-Mar 20:13 - Counting pixels
+2022-17-Mar 20:13 - [controller] image received
+2022-17-Mar 20:13 - Counting pixels
