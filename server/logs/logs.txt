@@ -1,0 +1,125 @@
+2022-14-Mar 15:13 - Server running on port: 8000
+2022-14-Mar 15:17 - Server running on port: 8000
+2022-14-Mar 15:24 - Server running on port: 8000
+2022-14-Mar 15:30 - Server running on port: 8000
+2022-14-Mar 15:32 - Server running on port: 8000
+2022-14-Mar 15:49 - Server running on port: 8000
+2022-14-Mar 15:49 - Server running on port: 8000
+2022-14-Mar 15:49 - Server running on port: 8000
+2022-14-Mar 15:50 - Server running on port: 8000
+2022-14-Mar 15:50 - Server running on port: 8000
+2022-14-Mar 15:56 - Server running on port: 8000
+2022-14-Mar 15:58 - Server running on port: 8000
+2022-14-Mar 16:00 - Server running on port: 8000
+2022-14-Mar 16:28 - Server running on port: 8000
+2022-14-Mar 16:29 - Server running on port: 8000
+2022-14-Mar 16:30 - Server running on port: 8000
+2022-14-Mar 16:31 - Server running on port: 8000
+2022-14-Mar 16:33 - Server running on port: 8000
+2022-14-Mar 16:35 - Server running on port: 8000
+2022-14-Mar 16:38 - Server running on port: 8000
+2022-14-Mar 16:38 - Server running on port: 8000
+2022-14-Mar 16:40 - Server running on port: 8000
+2022-14-Mar 16:41 - Server running on port: 8000
+2022-14-Mar 16:41 - Server running on port: 8000
+2022-14-Mar 16:49 - Server running on port: 8000
+2022-14-Mar 16:54 - Server running on port: 8000
+2022-14-Mar 16:56 - Server running on port: 8000
+2022-14-Mar 16:59 - Server running on port: 8000
+2022-14-Mar 17:12 - Server running on port: 8000
+2022-14-Mar 17:13 - Server running on port: 8000
+2022-14-Mar 17:14 - Server running on port: 8000
+2022-14-Mar 17:22 - Server running on port: 8000
+2022-14-Mar 17:22 - Server running on port: 8000
+2022-14-Mar 17:31 - Server running on port: 8000
+2022-14-Mar 17:51 - Server running on port: 8000
+2022-14-Mar 17:58 - Server running on port: 8000
+2022-14-Mar 18:17 - Server running on port: 8000
+2022-14-Mar 18:20 - Server running on port: 8000
+2022-14-Mar 22:51 - Server running on port: 8000
+2022-14-Mar 22:53 - Server running on port: 8000
+2022-14-Mar 22:54 - Server running on port: 8000
+2022-14-Mar 22:54 - Server running on port: 8000
+2022-14-Mar 22:59 - Server running on port: 8000
+2022-14-Mar 22:59 - Server running on port: 8000
+2022-14-Mar 23:00 - Server running on port: 8000
+2022-14-Mar 23:01 - Server running on port: 8000
+2022-14-Mar 23:23 - Server running on port: 8000
+2022-14-Mar 23:30 - Server running on port: 8000
+2022-14-Mar 23:32 - Server running on port: 8000
+2022-14-Mar 23:33 - Server running on port: 8000
+2022-14-Mar 23:41 - Server running on port: 8000
+2022-14-Mar 23:43 - Server running on port: 8000
+2022-14-Mar 23:45 - Server running on port: 8000
+2022-14-Mar 23:49 - Server running on port: 8000
+2022-14-Mar 23:58 - Server running on port: 8000
+2022-15-Mar 00:01 - Server running on port: 8000
+2022-15-Mar 00:01 - Server running on port: 8000
+2022-15-Mar 00:02 - Server running on port: 8000
+2022-15-Mar 00:04 - Server running on port: 8000
+2022-15-Mar 00:05 - Server running on port: 8000
+2022-15-Mar 00:14 - Server running on port: 8000
+2022-15-Mar 00:16 - Server running on port: 8000
+2022-15-Mar 00:35 - Server running on port: 8000
+2022-15-Mar 00:41 - Server running on port: 8000
+2022-15-Mar 00:45 - Server running on port: 8000
+2022-15-Mar 00:46 - Server running on port: 8000
+2022-15-Mar 00:48 - Server running on port: 8000
+2022-15-Mar 00:50 - Server running on port: 8000
+2022-15-Mar 00:51 - Server running on port: 8000
+2022-15-Mar 01:17 - Server running on port: 8000
+2022-15-Mar 01:22 - Server running on port: 8000
+2022-15-Mar 01:24 - Server running on port: 8000
+2022-15-Mar 01:30 - Server running on port: 8000
+2022-15-Mar 01:44 - Server running on port: 8000
+2022-15-Mar 01:45 - Server running on port: 8000
+2022-15-Mar 01:48 - Server running on port: 8000
+2022-15-Mar 01:55 - Server running on port: 8080
+2022-15-Mar 11:30 - Server running on port: 8000
+2022-15-Mar 11:33 - Server running on port: 8000
+2022-15-Mar 11:33 - Server running on port: 8000
+2022-15-Mar 12:21 - Server running on port: 8000
+2022-15-Mar 12:25 - Server running on port: 8000
+2022-15-Mar 12:27 - Server running on port: 8000
+2022-15-Mar 12:28 - Server running on port: 8000
+2022-15-Mar 12:29 - Server running on port: 8000
+2022-15-Mar 12:33 - Server running on port: 8000
+2022-17-Mar 19:06 - Server running on port: 8000
+2022-17-Mar 19:09 - Server running on port: 8000
+2022-17-Mar 20:00 - Server running on port: 8000
+2022-17-Mar 20:00 - Server running on port: 8000
+2022-17-Mar 20:01 - Server running on port: 8000
+2022-17-Mar 20:01 - Server running on port: 8000
+2022-17-Mar 20:04 - [controller] image received r2d3.jpg, pxl: 1000
+2022-17-Mar 20:04 - Counting pixels of img: r2d3.jpg
+2022-17-Mar 20:05 - Server running on port: 8000
+2022-17-Mar 20:05 - [controller] image received wallpaper.jpg, pxl: 233
+2022-17-Mar 20:05 - Counting pixels of img: wallpaper.jpg
+2022-17-Mar 20:08 - Server running on port: 8000
+2022-17-Mar 20:08 - Server running on port: 8000
+2022-17-Mar 20:08 - [controller] image received wallpaper.jpg, pxl: 233
+2022-17-Mar 20:08 - Counting pixels of img: wallpaper.jpg
+2022-17-Mar 20:09 - Server running on port: 8000
+2022-17-Mar 20:09 - [controller] image received wallpaper.jpg, pxl: 233
+2022-17-Mar 20:09 - Counting pixels of img: wallpaper.jpg
+2022-17-Mar 20:09 - Server running on port: 8000
+2022-17-Mar 20:10 - [controller] image received wallpaper.jpg, pxl: 233
+2022-17-Mar 20:10 - Counting pixels
+2022-17-Mar 20:11 - Server running on port: 8000
+2022-17-Mar 20:11 - [controller] image received wallpaper.jpg, pxl: 233
+2022-17-Mar 20:11 - Counting pixels
+2022-17-Mar 20:13 - Server running on port: 8000
+2022-17-Mar 20:13 - Server running on port: 8000
+2022-17-Mar 20:13 - [controller] image received
+2022-17-Mar 20:13 - Counting pixels
+2022-17-Mar 20:13 - [controller] image received
+2022-17-Mar 20:13 - Counting pixels
+2022-17-Mar 20:16 - Server running on port: 8000
+2022-17-Mar 20:16 - [controller] image received
+2022-17-Mar 20:16 - Counting pixels
+2022-17-Mar 20:25 - Server running on port: 8000
+2022-17-Mar 20:26 - Server running on port: 8000
+2022-17-Mar 20:26 - [controller] image received
+2022-17-Mar 20:26 - Counting pixels
+2022-17-Mar 20:26 - [controller] image received
+2022-17-Mar 20:26 - Counting pixels

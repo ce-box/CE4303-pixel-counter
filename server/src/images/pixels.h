@@ -1,0 +1,33 @@
+#ifndef PIXELS_H_
+#define PIXELS_H_
+
+#include <stdio.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <memory.h>
+#include <sys/stat.h>
+#include <unistd.h>
+#include "../logging/logging.h"
+
+#define STB_IMAGE_IMPLEMENTATION
+#include "stb_image/stb_image.h"
+
+#define SIZE 100
+
+char *gallery_path;
+
+struct RGB
+{
+    int r, g, b;
+    int last;
+};
+
+void set_gallery_path(char *path);
+void store_base64(const char *data);
+void decode_base64(const char *filename);
+void decode(FILE *encoded, FILE *decoded);
+int count_pixels(const char *filename, int reference_value);
+int pixels_count(const char *filename, int reference_value);
+
+#endif

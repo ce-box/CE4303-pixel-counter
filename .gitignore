@@ -1,3 +1,7 @@
+# vscode
+.vscode/
+**/base64.txt
+
 # Prerequisites
 *.d
 
