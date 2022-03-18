@@ -18,38 +18,6 @@ void set_gallery_path(char *path)
  * @param reference_value
  * @return int
  */
-int count_pixels(const char *filename, int reference_value)
-{
-    // Execute subroutine for image analysis
-    char *root = "/home/estalvgs/Documentos/tec/sistemas-operativos/CE4303-pixel-counter/server";
-    char *command = malloc(sizeof(char) * 1024);
-    sprintf(command, "python3 %s/src/images/pixel_counter.py %s %i", root, filename, reference_value);
-    system(command);
-
-    free(command);
-
-    // Read result value
-    char *path = malloc(sizeof(char) * 512);
-    sprintf(path, "%s/tmp/result.txt", gallery_path);
-
-    FILE *fptr;
-    fptr = fopen(path, "r");
-
-    char *buffer = malloc(sizeof(char) * 16);
-    fread(buffer, sizeof(char), 16, fptr);
-    fclose(fptr);
-    free(path);
-
-    return atoi(buffer);
-}
-
-/**
- * @brief
- *
- * @param filename
- * @param reference_value
- * @return int
- */
 int pixels_count(const char *filename, int reference_value)
 {
     int w, h, ch, result = 0;
